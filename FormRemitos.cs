@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipos
 {
-    public partial class FormRemito : Form
+    public partial class FormIRM : Form
     {
-        public FormRemito()
+        public FormIRM()
         {
             InitializeComponent();
         }
