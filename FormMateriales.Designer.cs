@@ -63,6 +63,7 @@
             this.txtbPPedido = new System.Windows.Forms.TextBox();
             this.txtbCMaxima = new System.Windows.Forms.TextBox();
             this.lblCMaxima = new System.Windows.Forms.Label();
+            this.bttnModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttnEiminar
@@ -158,7 +159,7 @@
             // 
             // bttnAgregar
             // 
-            this.bttnAgregar.Location = new System.Drawing.Point(294, 445);
+            this.bttnAgregar.Location = new System.Drawing.Point(212, 445);
             this.bttnAgregar.Name = "bttnAgregar";
             this.bttnAgregar.Size = new System.Drawing.Size(75, 23);
             this.bttnAgregar.TabIndex = 2;
@@ -167,7 +168,7 @@
             // 
             // bttnBuscar
             // 
-            this.bttnBuscar.Location = new System.Drawing.Point(414, 445);
+            this.bttnBuscar.Location = new System.Drawing.Point(360, 445);
             this.bttnBuscar.Name = "bttnBuscar";
             this.bttnBuscar.Size = new System.Drawing.Size(75, 23);
             this.bttnBuscar.TabIndex = 3;
@@ -353,11 +354,21 @@
             this.lblCMaxima.TabIndex = 113;
             this.lblCMaxima.Text = "Cantidad maxima";
             // 
+            // bttnModificar
+            // 
+            this.bttnModificar.Location = new System.Drawing.Point(513, 445);
+            this.bttnModificar.Name = "bttnModificar";
+            this.bttnModificar.Size = new System.Drawing.Size(75, 23);
+            this.bttnModificar.TabIndex = 6;
+            this.bttnModificar.Text = "Modificar";
+            this.bttnModificar.UseVisualStyleBackColor = true;
+            // 
             // FormMateriales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 520);
+            this.Controls.Add(this.bttnModificar);
             this.Controls.Add(this.lblCMaxima);
             this.Controls.Add(this.txtbCMaxima);
             this.Controls.Add(this.txtbPPedido);
@@ -437,6 +448,7 @@
         private System.Windows.Forms.TextBox txtbPPedido;
         private System.Windows.Forms.TextBox txtbCMaxima;
         private System.Windows.Forms.Label lblCMaxima;
+        private System.Windows.Forms.Button bttnModificar;
     }
 }
 

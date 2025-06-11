@@ -64,6 +64,7 @@
             this.lblAsterisco = new System.Windows.Forms.Label();
             this.lblAsterisco2 = new System.Windows.Forms.Label();
             this.lblExplicacion = new System.Windows.Forms.Label();
+            this.bttnModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttnEliminar
@@ -95,7 +96,7 @@
             // 
             // bttnBuscar
             // 
-            this.bttnBuscar.Location = new System.Drawing.Point(457, 479);
+            this.bttnBuscar.Location = new System.Drawing.Point(320, 479);
             this.bttnBuscar.Name = "bttnBuscar";
             this.bttnBuscar.Size = new System.Drawing.Size(75, 23);
             this.bttnBuscar.TabIndex = 3;
@@ -366,11 +367,21 @@
             this.lblExplicacion.TabIndex = 116;
             this.lblExplicacion.Text = "* Puede estar vacio";
             // 
+            // bttnModificar
+            // 
+            this.bttnModificar.Location = new System.Drawing.Point(468, 479);
+            this.bttnModificar.Name = "bttnModificar";
+            this.bttnModificar.Size = new System.Drawing.Size(75, 23);
+            this.bttnModificar.TabIndex = 5;
+            this.bttnModificar.Text = "Modificar";
+            this.bttnModificar.UseVisualStyleBackColor = true;
+            // 
             // FormProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 503);
+            this.Controls.Add(this.bttnModificar);
             this.Controls.Add(this.lblExplicacion);
             this.Controls.Add(this.lblAsterisco2);
             this.Controls.Add(this.lblAsterisco);
@@ -452,5 +463,6 @@
         private System.Windows.Forms.Label lblAsterisco;
         private System.Windows.Forms.Label lblAsterisco2;
         private System.Windows.Forms.Label lblExplicacion;
+        private System.Windows.Forms.Button bttnModificar;
     }
 }

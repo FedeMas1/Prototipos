@@ -52,6 +52,7 @@
             this.U_buen_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_mal_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.bttnAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvIRM)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +85,7 @@
             // 
             // bttnBuscar
             // 
-            this.bttnBuscar.Location = new System.Drawing.Point(94, 377);
+            this.bttnBuscar.Location = new System.Drawing.Point(637, 377);
             this.bttnBuscar.Name = "bttnBuscar";
             this.bttnBuscar.Size = new System.Drawing.Size(75, 23);
             this.bttnBuscar.TabIndex = 2;
@@ -234,11 +235,21 @@
             this.label1.TabIndex = 103;
             this.label1.Text = "Informe de recepcion de mercaderia";
             // 
+            // bttnAgregar
+            // 
+            this.bttnAgregar.Location = new System.Drawing.Point(96, 376);
+            this.bttnAgregar.Name = "bttnAgregar";
+            this.bttnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.bttnAgregar.TabIndex = 5;
+            this.bttnAgregar.Text = "Agregar";
+            this.bttnAgregar.UseVisualStyleBackColor = true;
+            // 
             // FormRemito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1209, 523);
+            this.Controls.Add(this.bttnAgregar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvIRM);
             this.Controls.Add(this.lblObservaciones);
@@ -287,5 +298,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn U_buen_estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_mal_estado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bttnAgregar;
     }
 }

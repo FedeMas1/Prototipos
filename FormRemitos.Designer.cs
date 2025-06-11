@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblNRemito = new System.Windows.Forms.Label();
             this.lblProveedor = new System.Windows.Forms.Label();
+            this.bttnGuardar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRemito)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@
             // 
             // bttnAgregar
             // 
-            this.bttnAgregar.Location = new System.Drawing.Point(90, 277);
+            this.bttnAgregar.Location = new System.Drawing.Point(90, 352);
             this.bttnAgregar.Name = "bttnAgregar";
             this.bttnAgregar.Size = new System.Drawing.Size(75, 23);
             this.bttnAgregar.TabIndex = 0;
@@ -68,7 +69,7 @@
             // 
             // bttnEliminar
             // 
-            this.bttnEliminar.Location = new System.Drawing.Point(558, 277);
+            this.bttnEliminar.Location = new System.Drawing.Point(90, 277);
             this.bttnEliminar.Name = "bttnEliminar";
             this.bttnEliminar.Size = new System.Drawing.Size(75, 23);
             this.bttnEliminar.TabIndex = 1;
@@ -77,7 +78,7 @@
             // 
             // bttnBuscar
             // 
-            this.bttnBuscar.Location = new System.Drawing.Point(90, 352);
+            this.bttnBuscar.Location = new System.Drawing.Point(317, 352);
             this.bttnBuscar.Name = "bttnBuscar";
             this.bttnBuscar.Size = new System.Drawing.Size(75, 23);
             this.bttnBuscar.TabIndex = 2;
@@ -181,11 +182,21 @@
             this.lblProveedor.TabIndex = 102;
             this.lblProveedor.Text = "Proveedor";
             // 
+            // bttnGuardar
+            // 
+            this.bttnGuardar.Location = new System.Drawing.Point(558, 277);
+            this.bttnGuardar.Name = "bttnGuardar";
+            this.bttnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.bttnGuardar.TabIndex = 5;
+            this.bttnGuardar.Text = "Guardar";
+            this.bttnGuardar.UseVisualStyleBackColor = true;
+            // 
             // FormIRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(710, 396);
+            this.Controls.Add(this.bttnGuardar);
             this.Controls.Add(this.lblProveedor);
             this.Controls.Add(this.lblNRemito);
             this.Controls.Add(this.label1);
@@ -225,5 +236,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblNRemito;
         private System.Windows.Forms.Label lblProveedor;
+        private System.Windows.Forms.Button bttnGuardar;
     }
 }
