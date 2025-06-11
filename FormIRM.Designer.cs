@@ -40,7 +40,7 @@
             this.lblCInforme = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblObservaciones = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvIRM = new System.Windows.Forms.DataGridView();
             this.CUIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cod_OC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,7 +52,7 @@
             this.U_buen_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_mal_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIRM)).BeginInit();
             this.SuspendLayout();
             // 
             // bttnBack
@@ -61,7 +61,7 @@
             this.bttnBack.Name = "bttnBack";
             this.bttnBack.Size = new System.Drawing.Size(75, 23);
             this.bttnBack.TabIndex = 4;
-            this.bttnBack.Text = "back";
+            this.bttnBack.Text = "Back";
             this.bttnBack.UseVisualStyleBackColor = true;
             // 
             // bttnEliminar
@@ -75,7 +75,7 @@
             // 
             // bttnGuardar
             // 
-            this.bttnGuardar.Location = new System.Drawing.Point(713, 330);
+            this.bttnGuardar.Location = new System.Drawing.Point(1064, 330);
             this.bttnGuardar.Name = "bttnGuardar";
             this.bttnGuardar.Size = new System.Drawing.Size(75, 23);
             this.bttnGuardar.TabIndex = 1;
@@ -93,7 +93,7 @@
             // 
             // bttnModificar
             // 
-            this.bttnModificar.Location = new System.Drawing.Point(713, 377);
+            this.bttnModificar.Location = new System.Drawing.Point(1064, 377);
             this.bttnModificar.Name = "bttnModificar";
             this.bttnModificar.Size = new System.Drawing.Size(75, 23);
             this.bttnModificar.TabIndex = 3;
@@ -102,7 +102,7 @@
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(607, 40);
+            this.dtpFecha.Location = new System.Drawing.Point(989, 43);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(200, 20);
             this.dtpFecha.TabIndex = 50;
@@ -125,7 +125,7 @@
             // 
             this.txtbObservaciones.Location = new System.Drawing.Point(96, 304);
             this.txtbObservaciones.Name = "txtbObservaciones";
-            this.txtbObservaciones.Size = new System.Drawing.Size(694, 20);
+            this.txtbObservaciones.Size = new System.Drawing.Size(1043, 20);
             this.txtbObservaciones.TabIndex = 12;
             // 
             // lblCInforme
@@ -155,10 +155,10 @@
             this.lblObservaciones.TabIndex = 102;
             this.lblObservaciones.Text = "Observaciones:";
             // 
-            // dataGridView1
+            // dgvIRM
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvIRM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvIRM.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CUIT,
             this.cod_OC,
             this.descripcion,
@@ -169,10 +169,10 @@
             this.cantidad_real,
             this.U_buen_estado,
             this.U_mal_estado});
-            this.dataGridView1.Location = new System.Drawing.Point(94, 120);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(694, 165);
-            this.dataGridView1.TabIndex = 51;
+            this.dgvIRM.Location = new System.Drawing.Point(94, 120);
+            this.dgvIRM.Name = "dgvIRM";
+            this.dgvIRM.Size = new System.Drawing.Size(1045, 165);
+            this.dgvIRM.TabIndex = 51;
             // 
             // CUIT
             // 
@@ -228,7 +228,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(185, 3);
+            this.label1.Location = new System.Drawing.Point(429, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(447, 31);
             this.label1.TabIndex = 103;
@@ -238,9 +238,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 427);
+            this.ClientSize = new System.Drawing.Size(1209, 523);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvIRM);
             this.Controls.Add(this.lblObservaciones);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblCInforme);
@@ -255,7 +255,7 @@
             this.Controls.Add(this.bttnBack);
             this.Name = "FormRemito";
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIRM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,7 +275,7 @@
         private System.Windows.Forms.Label lblCInforme;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblObservaciones;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvIRM;
         private System.Windows.Forms.DataGridViewTextBoxColumn CUIT;
         private System.Windows.Forms.DataGridViewTextBoxColumn cod_OC;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;

@@ -81,6 +81,9 @@
     <EmbeddedResource Include="FormIRM.resx">
       <DependentUpon>FormIRM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormRemitos.resx">
+      <DependentUpon>FormRemitos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
